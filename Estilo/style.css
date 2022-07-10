@@ -117,23 +117,17 @@ main p{
         transition-duration: 80ms;
         
     }
-    .cerina {
-        margin: auto;
-        max-width:340px;
-        padding-left: 
-        
-    }
+    
 .pequena{
     max-width: 350px;
     display: block;
     margin: auto;
 }
 main img{
-    margin: auto;
-    max-width: 355px;
-    padding-left: -10px;
-       
+   
 }
+
+
 main h1{
     color: var(--cor5);
     font-family: var(--fonte-android);
