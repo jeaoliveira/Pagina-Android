@@ -117,17 +117,34 @@ main p{
         transition-duration: 80ms;
         
     }
-    
 .pequena{
     max-width: 350px;
     display: block;
     margin: auto;
 }
-main img{
-   
+.celina{
+    margin: auto;
+    margin-right: -28px;
+    padding: 5px;
+    text-align: center;
+    
 }
+.bug{
+   margin-right: -10px;
+   margin: auto;
+}
+.celina2{
+    margin: auto;
 
-
+    margin-right: -20;
+}
+img{
+  width: 100%;
+  display: block;
+  text-align: center;
+  margin: auto;
+  
+}
 main h1{
     color: var(--cor5);
     font-family: var(--fonte-android);
