@@ -1,0 +1,205 @@
+@charset "utf-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:ital,wght@0,100;0,300;1,100&family=Splash&family=The+Nautigal:wght@700&family=Work+Sans:ital,wght@0,100;1,100&display=swap');
+
+@font-face {
+    font-family:"android";
+    src: url(/fontes/idroid.otf) format("opentype");
+    font-weight:normal
+}
+
+:root{
+    --cor0:#c5ebd6;
+    --cor1:#83e1ad;
+    --cor2:#3ddc84;
+    --cor3:#2fa866;
+    --cor4:#1a5c37;
+    --cor5:#063d1e;
+    --fonte-padrao: arial, verdana, helvetica, sans-serif;
+    --fonte-destaque: "bebas neue", cursive;
+    --fonte-android:'android', cursive;
+
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: var(--cor0);
+    font-family: var(--fonte-padrao);
+    
+}
+
+header{
+    background-image: linear-gradient(to bottom, var(--cor2), var(--cor5));
+    min-height: 200px;
+    text-align: center;
+    padding-top: 30px;
+}
+header p {
+    color: white;
+    font-family: var(--fonte-padrao);
+    font-size: 1.2em;
+    max-width: 600px;
+    margin: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.521);
+}
+header h1{
+    color: white;
+    font-family: var(--fonte-destaque);
+    margin-bottom: 20px;
+    font-size: 3em;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.521);
+}
+nav {
+background-color:var(--cor5) ;
+padding: 10px;
+}
+nav a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    font-weight: bold;
+
+
+}
+nav a:hover{
+    background-color: #3ddc8510;
+    color: rgba(211, 18, 18, 0.966);
+    transition-duration: 0.1s;
+    border-radius: 5px;
+   
+
+  
+    
+}
+
+main{
+    background-color: white;
+    min-width: 300px;
+    max-width: 800px;
+    margin: auto;
+    padding: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    margin-bottom: 30px;
+    border-bottom-left-radius: 10px ;
+    border-bottom-right-radius:10px ;
+}
+main p{
+    margin: 15px 0px;
+    text-align: justify;
+    text-indent: 30px;
+    line-height: 25px;
+    }
+    main strong{
+        color: #1a5c37;
+        font-weight: bold;
+    }
+    main strong:hover{
+        
+        color: rgb(230, 30, 30);
+        transition-duration: 30ms;
+        font-weight: bolder;
+        font-size: 20px;
+    }
+    main a {
+        background-color: #278a5279;
+        color: black;
+        text-decoration: none;
+        font-weight: bolder;
+        padding: 2px 2px;
+    }
+    main a:hover{
+        text-decoration: underline;
+        color: rgb(228, 38, 38);
+        transition-duration: 80ms;
+        
+    }
+.pequena{width: 100%;
+    max-width: 350px;
+    display: block;
+    margin: auto;
+}
+.celina{
+    width: 100%;
+    margin: auto;
+    margin-right: -28px;
+    padding: 5px;
+    text-align: center;
+    
+}
+.bug{
+   margin-right: -10px;
+   margin: auto;
+   width: 100%;
+}
+.celina2{
+    margin: auto;
+width: 100%;
+    margin-right: -20;
+}
+img{
+  width: 100%;
+  display: block;
+  text-align: center;
+  margin: auto;
+  
+}
+main h1{
+    color: var(--cor5);
+    font-family: var(--fonte-android);
+    font-weight: normal;
+}
+main h2{
+    font-family: var(--fonte-android);
+    color: #1a5c37;
+    background-image: linear-gradient(to right, var(--cor2), transparent);
+    font-weight: normal;
+
+}
+aside{
+    background-color: #3ddc84;
+    padding: 10px;
+    border-radius: 10px;
+    
+}
+aside h3{
+    background-color: var(--cor4);
+    color: white;
+    padding: 10px;
+    margin: -10px -10px -10px -10px;
+    border-radius: 10px 10px 0px 0px;
+    box-shadow: 3px 5px 8px  black;
+}
+aside ul{
+    padding: 10px;
+    line-height: 25px;
+    list-style-position: inside;
+    columns: 2;
+    text-decoration: none;
+    outline: 20px;
+
+}
+footer{
+    background-color: var(--cor5);
+    color: white;
+    text-align: center;
+    padding: 5px;
+}
+.video{
+background-color: #063d1e;
+
+text-align: center;
+margin: 10px -10px;
+position: relative;
+padding-bottom: 59%;
+}
+.video > iframe{
+    position: absolute;
+    top: 5% ;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
